@@ -1,0 +1,23 @@
+# Ignorar dependencias de Node.js
+tienda-cli/node_modules/
+productos-secos-app/node_modules/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar directorios de compilación/dist
+/dist/
+productos-secos-app/dist/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar carpeta de cache de npm
+npm-debug.log*
+
+# Ignorar archivos temporales
+*.tmp
